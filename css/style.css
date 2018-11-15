@@ -1,23 +1,52 @@
-     .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+ body,
+ html {
+     height: 100%;
+ }
 
-        .grid {
-            display: grid;
-            grid-template-columns: [xl-start] 1fr 1.0rem [md-start] minmax(0, 500px) [md-end] 1.0rem 1fr [xl-end];
-        }
+ .center {
+     display: flex;
+     justify-content: center;
+     align-items: center;  
+ }
 
-        .grid * {
-            grid-column: md;
-        }
 
-        .grid-xl {
-            grid-column: xl;
-        }
+ .grid {
+     display: grid;
+     grid-template-columns: [xl-start] 1fr 1.0rem [md-start] minmax(0, 500px) [md-end] 1.0rem 1fr [xl-end];
+ }
 
-        .is-paddingless-horizontal {
-            padding-left: 0;
-            padding-right: 0;
-        }
+ .grid * {
+     grid-column: md;
+ }
+
+ .grid-xl {
+     grid-column: xl;
+ }
+
+ .is-paddingless-horizontal {
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ .header {
+     min-height: height: 80%;
+     background-color: #714091;
+     background-image: url(../imges/header-background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+
+ .header-right {
+     max-width: 400px;
+ }
+@media (max-width: 768px){
+    
+    .header-title{
+        padding-top: 60px;
+    }
+    .header-right{
+        max-width: 300px;
+    }
+}

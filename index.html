@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,12 +7,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </head>
-
 <body>
+    <!--nav-->
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <!--                <img src="" width="112" height="28">-->
+                <h1 class="title">MG</h1>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-    <section class="section is-paddingless-horizontal" >
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    skills
+                </a>
+
+                <a class="navbar-item">
+                    about
+                </a>
+
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            contant
+                        </a>
+
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item">
+                                facebook
+                            </a>
+                            <a class="navbar-item">
+                                whatsapp
+                            </a>
+                            <a class="navbar-item">
+                                githup
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--nav-->
+
+
+    <div class="header">
+        <div class="columns">
+
+            <div class="column center header-title" style="flex-direction: column;">
+                <h1 class="title has-text-light">Lorem ipsum dolor.</h1>
+                <h3 class="subtitle has-text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, non.</h3>
+            </div>
+            <div class="column center">
+                <img class="header-right" src="imges/header-right.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <section class="section is-paddingless-horizontal">
         <div class="container grid">
             <article class="media center">
                 <figure class="media-left ">
@@ -27,7 +97,7 @@
                         <!-- ... -->
                         <p>
                             <strong>Mohammed Gehad</strong> <a href="">@Mohmammed_gehad</a>
-                            
+
                             <br>
                             <span class="has-text-grey">Self-taught, inspired to learn<br>
                                 <time datetime="2018-04-20">Apr 20</time> · 20 min read</span>
