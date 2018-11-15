@@ -40,13 +40,16 @@
 
  .header-right {
      max-width: 400px;
+     padding: 40px;
+     padding-bottom: 0px
  }
 @media (max-width: 768px){
     
     .header-title{
-        padding-top: 60px;
+        padding-top: 35px;
+
     }
     .header-right{
-        max-width: 300px;
+        max-width: 350px;
     }
 }
