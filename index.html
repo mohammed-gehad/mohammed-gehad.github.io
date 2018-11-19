@@ -23,7 +23,9 @@
     <div>
 
 
-        <nav class="navbar is-transparent is-light is-fixed-top" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-transparent is-light is-fixed-top" role="navigation" aria-label="main navigation" style="-webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
             <div class="navbar-brand">
                 <a class="navbar-item" href="#">
                     <!--                <img src="" width="112" height="28">-->
@@ -38,23 +40,14 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-
                 </div>
-
-                <div class="navbar-end">
-
-                    <a class="navbar-item link">
-                        skills
-                    </a>
-
-                    <a class="navbar-item link">
-                        about
-                    </a>
-                    <a class="navbar-item link">
-                        contact
-                    </a>
-
-
+                <div class="navbar-end tabs">
+                    <ul>
+                        <li class="is-active"><a>skills</a></li>
+                        <li><a> Latest Work</a></li>
+                        <li><a>about</a></li>
+                        <li><a>contact</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -86,29 +79,103 @@
         </div>
 
     </div>
-    <div class="box center" style="margin: 1em; position: relative ; top: -40px; min-height:150px; padding: 40px;">
-        <div class="columns">
+    <!--    hiring-->
+    <div class="container">
 
-            <div class="column  center">
-                <h1 class="title is-4">Open For Hiring</h1>
+
+        <div class=" box center" style="margin: 1em; position: relative ; top: -40px; min-height:150px; padding: 40px;">
+            <div class="columns">
+
+                <div class="column  center">
+                    <h1 class="shadow title is-4" s>Open For Hiring</h1>
+                </div>
+
+                <div class="column center is-6">
+
+                    <p class="subtitle is-6" style="text-align: center">
+                        Interested on working together ? I am currently looking for a new adventure so tell me more about your project and let's start to build something great together.</p>
+                </div>
+
+                <div class="column center ">
+                    <a class="button  is-link is-outlined is-2 hvr-float-shadow">Let's Do It</a>
+                </div>
+
             </div>
+        </div>
 
-            <div class="column center is-6">
+    </div>
+    <!--    hiring-->
 
-                <p class="subtitle is-6" style="text-align: center">
-                    Interested on working together ? I am currently looking for a new adventure so tell me more about your project and let's start to build something great together.</p>
-            </div>
 
-            <div class="column center ">
-                <a class="button  is-link is-outlined is-2 hvr-float-shadow">Let's Do It</a>
+    <!--   skills-->
+    <section>
+        <div class="container">
+            <div class="card" style="padding: 30px; border-radius: 6px; margin: 1em;">
+                <h1 class="title center is-4">
+                    <p class="shadow">Skills</p>
+                </h1>
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="subtitle center is-5">
+                            <p style="margin-bottom: -20px;">Languages I Speak:</p>
+                        </h1>
+                        <div class="tags is-centered">
+                            <span class="tag">Html</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="subtitle center is-5">
+                            <p style="margin-bottom: -20px;">Development Tools:</p>
+                        </h1>
+                        <div class="tags is-centered">
+                            <span class="tag">Brackets</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">NPM</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">illustrator</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="subtitle center is-5">
+                            <p style="margin-bottom: -20px;">Frameworks:</p>
+                        </h1>                        <div class="tags is-centered">
+                            <span class="tag">React</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">Bulma</span>
+                            <span class="tag">Bootstrap</span>
+                          
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
-    </div>
+    </section>
+    <!--   skills-->
 
+    <!--  latest work-->
+    <section>
+        <div class="container">
+            <h1 class="title center is-4">
+                <p class="shadow">Latest Work</p>
+
+            </h1>
+        </div>
+    </section>
+    <!--  latest work-->
+
+
+    <!--   about me-->
     <section class="aboutme">
         <div class="container">
-            <h1 class="title is-4 center">about me</h1>
+            <h1 class="title is-4 center">
+                <p class="shadow">about me</p>
+            </h1>
             <div class="container center">
                 <figure class="image is-128x128">
                     <img class="is-rounded" src="imges/me.png" alt="">
@@ -124,9 +191,12 @@
         </div>
     </section>
     <br>
+    <!--   about me-->
     <section class="footer">
 
-        <h1 class="title is-4 center has-text-light">Let's Get Social</h1>
+        <h1 class="title is-4 center has-text-light">
+            <p class="shadow">Let's Get Social</p>
+        </h1>
         <div class="columns is-mobile">
             <div class="column"></div>
             <div class="column center">
@@ -185,7 +255,7 @@
                             </span>
                             <span>pu2k@hotmail.com</span>
                         </a>
-                        
+
                     </div>
                 </div>
             </div>

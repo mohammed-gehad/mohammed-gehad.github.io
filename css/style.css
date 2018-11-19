@@ -4,6 +4,13 @@
      height: 100%;
  }
 
+.shadow{
+ box-shadow:     inset 0 -6px 0 rgba(95,10,135,.2);
+}
+.shadow-revers:hover{
+ box-shadow:     inset 0 -6px 0 rgba(95,10,135,.2);
+}
+
  .center {
      display: flex;
      justify-content: center;
