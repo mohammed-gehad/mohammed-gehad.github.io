@@ -77,10 +77,21 @@
  /*
 * These styles creates the underlining of link
 */
+     .margin{
+         text-align: center;
+         padding: 0 5px;
+     }
 
+ @media (min-width: 768px) {
+     .margin{
+         text-align: center;
+         padding: 0 140px;
+     }
+}
  @media (min-width: 1089px) {
-     .about{
-         padding: 0 100px;
+     .margin{
+         text-align: center;
+         padding: 0 200px;
      }
      .link {
          position: relative;
