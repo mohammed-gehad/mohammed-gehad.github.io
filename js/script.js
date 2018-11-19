@@ -23,3 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+/*Scroll to top when arrow up clicked BEGIN*/
+
+ /*Scroll to top when arrow up clicked END*/

@@ -61,7 +61,7 @@
  @media (max-width: 768px) {
 
      .header-title {
-         padding-top: 35px;
+         padding-top: 80px;
 
      }
 
@@ -95,45 +95,6 @@
      .margin{
          text-align: center;
          padding: 0 200px;
-     }
-     .link {
-         position: relative;
-         z-index: 1;
-         display: inline-flex;
-         padding-left: 1px;
-         padding-bottom: 15px;
-         padding-right: 6px;
-         margin: 0px 10px;
-     }
-
-     .link::before {
-         content:"";
-         width: 90%;
-         height: 90%;
-         background-image: linear-gradient(to top, #663399 5%, transparent 10%);
-         position: absolute;
-         left: 0;
-         bottom: 16px;
-         z-index: -1;
-         will-change: width;
-         -webkit-transform-origin: left bottom;
-         transform-origin: left bottom
-     }
-
-     .link:hover::before {
-         width: 0;
-     }
-
-     /*
-* animation styles
-*/
-
-     .link::before {
-         transition: width .30s ease-out;
-     }
-
-     .link:hover::before {
-         transition-duration: .30s;
      }
  }
 .button.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
@@ -191,3 +152,6 @@
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+
+
+/*...................*/
