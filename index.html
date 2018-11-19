@@ -30,9 +30,9 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
             <div class="navbar-brand">
                 <a class="navbar-item is-centered" href="#">
                     <!--                <img src="" width="112" height="28">-->
-                    
-                        <img src="imges/logo.png">
-                    
+
+                    <img src="imges/logo.png">
+
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -46,10 +46,10 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
                 </div>
                 <div class="navbar-end tabs is-centered">
                     <ul>
-                        <li class="is-active"><a>skills</a></li>
-                        <li><a> Latest Work</a></li>
-                        <li><a>about</a></li>
-                        <li><a>contact</a></li>
+                        <li class="is-active"><a type="button" onclick="smoothScroll(document.getElementById('Skills'))">skills</a></li>
+                        <li><a type="button" onclick="smoothScroll(document.getElementById('Latest-Work'))"> Latest Work</a></li>
+                        <li><a type="button" onclick="smoothScroll(document.getElementById('About'))">about</a></li>
+                        <li><a type="button" onclick="smoothScroll(document.getElementById('Contact'))">contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -112,7 +112,7 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
 
     <!--   skills-->
     <section>
-        <div class="container">
+        <div class="container Skills" id="Skills">
             <div class="card" style="padding: 30px; border-radius: 6px; margin: 1em;">
                 <h1 class="title center is-4">
                     <p class="shadow">Skills</p>
@@ -165,7 +165,7 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
     <!--  latest work-->
     <section>
         <div class="container">
-            <h1 class="title center is-4">
+            <h1 class="title center is-4" id="Latest-Work">
                 <p class="shadow">Latest Work</p>
 
             </h1>
@@ -175,7 +175,7 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
 
 
     <!--   about me-->
-    <section class="aboutme">
+    <section class="aboutme" id="About">
         <div class="container">
             <h1 class="title is-4 center">
                 <p class="shadow">about me</p>
@@ -198,7 +198,7 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
     <!--   about me-->
     <section class="footer">
 
-        <h1 class="title is-4 center has-text-light">
+        <h1 class="title is-4 center has-text-light" id="Contact">
             <p class="shadow">Let's Get Social</p>
         </h1>
         <div class="columns is-mobile">
@@ -278,6 +278,7 @@ box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.2); ">
         </p>
 
     </section>
+
 
 </body>
 
