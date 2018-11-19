@@ -29,7 +29,7 @@
      padding-right: 0;
  }
 
- .header {
+ .header ,.footer {
      min-height: height: 80%;
      background-color: #714091;
      background-image: url(../imges/header-background.png);
@@ -79,6 +79,9 @@
 */
 
  @media (min-width: 1089px) {
+     .about{
+         padding: 0 100px;
+     }
      .link {
          position: relative;
          z-index: 1;
@@ -173,3 +176,4 @@
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
