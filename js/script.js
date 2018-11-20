@@ -46,6 +46,6 @@ window.smoothScroll = function(target) {
         setTimeout(function(){ scroll(c, a, b, i); }, 20);
     }
     // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY - 100, 0);
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY - 120, 0);
 }
  /*Scroll to top when arrow up clicked END*/
