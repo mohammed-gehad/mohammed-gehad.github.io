@@ -174,3 +174,12 @@
     height: 1000px;
     background: #999;
 }
+
+
+.tabs ul {
+     border-bottom-width: 0px ; 
+}
+
+.tabs a {
+    border-bottom-color: rgba(0,0,0,0);
+}
